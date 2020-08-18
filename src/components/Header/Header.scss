@@ -1,0 +1,23 @@
+.Header {
+  display: grid;
+  justify-content: center;
+  &-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 1px solid black;
+    font-size: 50px;
+    font-weight: 500;
+    width: 500px;
+  }
+  &-subTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 300;
+    width: 500px;
+    padding: 5px 20px;
+    background-color: rgb(194, 194, 194);
+  }
+}
