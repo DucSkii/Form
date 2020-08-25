@@ -20,6 +20,7 @@ class Content extends Component {
         <Username />
         <Email />
         <Password />
+        <Sign-Up />
       </div>
     )
   }
